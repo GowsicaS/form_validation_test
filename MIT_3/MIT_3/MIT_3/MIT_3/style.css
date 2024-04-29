@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole-container{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./bg-intro-desktop.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents-wrapper{
+    display: flex;
+    gap: 70px;
+}
+.container-left{
+    color: #ffffff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.description{
+    font-size: 20px;
+}
+.container-right{
+    width: 400px;
+}
+.trail{
+    background-color: hsl(248, 32%, 49%);
+    color: rgb(216, 208, 208);
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px hsl(249, 10%, 26%);
+}
+.forms{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+input{
+    margin: 10px 0px;    
+    color:  hsl(246, 25%, 77%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 208, 208);
+}
+.custom-button{
+    width: 87%;
+    height: 38px;
+    color: #ffffff;
+    background-color: hsl(154, 59%, 51%);
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.terms-and-conditions{
+    font-size: 10px;
+    color: rgb(216, 208, 208);
+}
+a{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    color: #ffffff;
+}
